@@ -33,6 +33,7 @@ namespace HelloWorld
             Console.Write("age?...");
             int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("age is " + age);
+            Console.WriteLine($"age {age + 5} in five years");
         }
 
         static void Hi(string str)
@@ -82,4 +83,5 @@ namespace HelloWorld
         }
     }
 }
+
 
